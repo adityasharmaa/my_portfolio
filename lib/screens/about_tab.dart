@@ -15,7 +15,7 @@ class AboutTab extends StatelessWidget {
             children: <Widget>[
               CircleAvatar(
                 radius: 100,
-                backgroundImage: Image.asset(Assets.avatar).image,
+                backgroundImage: Image.network(Assets.avatar).image,
               ),
               SizedBox(
                 height: 20,
@@ -53,7 +53,7 @@ class AboutTab extends StatelessWidget {
                     icon: SizedBox(
                       width: 20,
                       height: 20,
-                      child: Image.asset(Assets.github),
+                      child: Image.network(Assets.github),
                     ),
                     label: Text(
                       'Github',
@@ -68,9 +68,10 @@ class AboutTab extends StatelessWidget {
                   FlatButton.icon(
                     color: Colors.white,
                     icon: SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: Image.asset(Assets.instagram)),
+                      width: 20,
+                      height: 20,
+                      child: Image.network(Assets.instagram),
+                    ),
                     label: Text(
                       'Instagram',
                       style: TextStyle(
@@ -84,9 +85,10 @@ class AboutTab extends StatelessWidget {
                   FlatButton.icon(
                     color: Colors.white,
                     icon: SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: Image.asset(Assets.facebook)),
+                      width: 20,
+                      height: 20,
+                      child: Image.network(Assets.facebook),
+                    ),
                     label: Text(
                       'Facebook',
                       style: TextStyle(
@@ -100,9 +102,10 @@ class AboutTab extends StatelessWidget {
                   FlatButton.icon(
                     color: Colors.white,
                     icon: SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: Image.asset(Assets.linkedin)),
+                      width: 20,
+                      height: 20,
+                      child: Image.network(Assets.linkedin),
+                    ),
                     label: Text(
                       'Linkedin',
                       style: TextStyle(

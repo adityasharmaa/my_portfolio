@@ -6,7 +6,7 @@ import 'package:web_try/models/skill_model.dart';
 class SkillWidget extends StatelessWidget {
   final Skill skill;
   final double width;
-  
+
   SkillWidget({
     @required this.skill,
     @required this.width,
@@ -29,7 +29,7 @@ class SkillWidget extends StatelessWidget {
           children: <Widget>[
             SizedBox(
               width: width * 0.2,
-              child: Image.asset(
+              child: Image.network(
                 skill.image,
                 fit: BoxFit.contain,
                 width: height * 0.1,
