@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:web_try/widgets/responsive_widget.dart';
-import 'package:web_try/config/skills.dart';
-import 'package:web_try/widgets/skill_widget.dart';
+import '../widgets/responsive_widget.dart';
+import '../config/skills.dart';
+import '../widgets/skill_widget.dart';
 
 class SkillsTab extends StatelessWidget {
   @override

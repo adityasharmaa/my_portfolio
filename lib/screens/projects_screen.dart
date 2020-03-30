@@ -1,6 +1,6 @@
-import 'package:web_try/config/projects.dart';
-import 'package:web_try/widgets/project_widget.dart';
-import 'package:web_try/widgets/responsive_widget.dart';
+import '../config/projects.dart';
+import '../widgets/project_widget.dart';
+import '../widgets/responsive_widget.dart';
 import 'package:flutter/material.dart';
 
 class ProjectsTab extends StatelessWidget {

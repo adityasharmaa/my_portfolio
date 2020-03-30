@@ -1,4 +1,4 @@
-import 'package:web_try/models/project_model.dart';
+import '../models/project_model.dart';
 import 'assets.dart';
 
 final List<Project> projects = [

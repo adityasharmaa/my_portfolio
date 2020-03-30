@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:web_try/config/assets.dart';
-import 'package:web_try/screens/skills_tab.dart';
+import '../screens/skills_tab.dart';
 
 import 'about_tab.dart';
 import 'projects_screen.dart';

@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:web_try/models/skill_model.dart';
+import '../models/skill_model.dart';
 
 class SkillWidget extends StatelessWidget {
   final Skill skill;

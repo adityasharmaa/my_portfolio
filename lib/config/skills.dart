@@ -1,5 +1,5 @@
-import 'package:web_try/config/assets.dart';
-import 'package:web_try/models/skill_model.dart';
+import '../config/assets.dart';
+import '../models/skill_model.dart';
 
 final List<Skill> skills = [
   Skill(

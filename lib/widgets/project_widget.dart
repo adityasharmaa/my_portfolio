@@ -1,4 +1,4 @@
-import 'package:web_try/models/project_model.dart';
+import '../models/project_model.dart';
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
 

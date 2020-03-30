@@ -1,5 +1,5 @@
-import 'package:web_try/config/assets.dart';
-import 'package:web_try/config/constants.dart';
+import '../config/assets.dart';
+import '../config/constants.dart';
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
 
