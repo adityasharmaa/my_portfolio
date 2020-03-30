@@ -31,9 +31,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "c9f432f2613f66fd7f418e28aa012cfb",
-"main.dart.js": "a1f1638e29e08b684b42cdc5613f140d",
-"manifest.json": "cef785009907754132610e83a04682d3"
+"index.html": "402af9fc38bee2f56521c15a5f7a569c",
+"main.dart.js": "11d5b40e0d7eb24b734e2eaef55cadad",
+"manifest.json": "3d6a63557d1947dec8345188a05a14f6"
 };
 
 self.addEventListener('activate', function (event) {
